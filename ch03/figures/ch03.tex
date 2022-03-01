@@ -50,13 +50,12 @@ Components, their relationships (structures), and how they interact with each
 other.
 \begin{figure}[!ht]
 \centering
-\includegraphics[width = 6in]{backmatter/figures/sys.arch.png}
+\includegraphics[width = 5.5in]{backmatter/figures/SysArch.png}
 \end{figure}
 \vspace{0.25cm}
 \begin{itemize}
-  \item User write about his medical history (if he didn’t sign in before ) and answer some questions about his situation and take image for disease or (upload from gallery) then app will replay with the prediction of disease and some information about it .\\
-  \item Doctors will write information and medicines for diseases on the website and they will insert in database.\\
-  \item Middle-ware backend will process information from doctors and users 
+  \item \textbf{Subsystem-1:} user write about his medical history (if he didn’t sign in before ) and answer some questions about his situation and take image for disease or (upload from gallery) then app will replay with the prediction of disease and some information about it .\\Doctors will write information and medicines for diseases on the website and they will insert in database.\\
+  \item \textbf{Subsystem-2:} Middle-ware backend will process information from doctors and users 
   beside information about users and doctors  and it will be responsible of 
   :\\
     \begin{itemize}
@@ -64,7 +63,7 @@ other.
         \item Process answers of with storaged answers and information.\\
         \item Reply disease and information about it to user.\\
     \end{itemize}
-  \item \textbf{Categorization models API :} microservice communicate with middle-ware to respond predictions of diseases.\\
+  \item \textbf{Subsystem-3} microservices communicate with middle-ware to respond predictions of diseases.\\Microservices distributed between servires communicate with eath other.
 \end{itemize}
 \section{Development Methodology}
 After we knew the basic structure of the system. We are going to view 
