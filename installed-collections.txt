@@ -1,0 +1,27 @@
+i collection-basic: Essential programs and files
+i collection-bibtexextra: BibTeX additional styles
+i collection-binextra: TeX auxiliary programs
+i collection-context: ConTeXt and packages
+i collection-fontsextra: Additional fonts
+i collection-fontsrecommended: Recommended fonts
+i collection-fontutils: Graphics and font utilities
+i collection-formatsextra: Additional formats
+i collection-langczechslovak: Czech/Slovak
+i collection-langenglish: US and UK English
+i collection-langeuropean: Other European languages
+i collection-langfrench: French
+i collection-langgerman: German
+i collection-langitalian: Italian
+i collection-langpolish: Polish
+i collection-langportuguese: Portuguese
+i collection-langspanish: Spanish
+i collection-latex: LaTeX fundamental packages
+i collection-latexextra: LaTeX additional packages
+i collection-latexrecommended: LaTeX recommended packages
+i collection-luatex: LuaTeX packages
+i collection-mathscience: Mathematics, natural sciences, computer science packages
+i collection-metapost: MetaPost and Metafont packages
+i collection-pictures: Graphics, pictures, diagrams
+i collection-plaingeneric: Plain (La)TeX packages
+i collection-texworks: TeXworks editor; TL includes only the Windows binary
+i collection-xetex: XeTeX and packages
